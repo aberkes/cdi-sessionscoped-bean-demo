@@ -1,0 +1,22 @@
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'maven'
+
+group 'CDIDemo'
+
+
+repositories {
+   flatDir { dirs "lib" }
+   mavenCentral()
+   mavenLocal()
+}
+
+
+dependencies {	
+	providedCompile "javax:javaee-api:7.0"
+	providedCompile 'javax.servlet:servlet-api:2.5'
+        providedCompile 'org.jboss.resteasy:resteasy-jaxrs:3.0.8.Final'
+        runtime 'javax.servlet:jstl:1.1.2'
+		
+	testCompile "junit:junit:4.11"
+}
