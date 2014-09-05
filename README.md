@@ -1,0 +1,2 @@
+cdi-sessionscoped-bean-demo
+===========================
