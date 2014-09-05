@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <jboss-web>
-    <context-root>/</context-root>
+    <context-root>cdidemo</context-root>
 </jboss-web>
+
+<!--  
+
+IT WORKS:
+
+<jboss-web>
+    <context-root>cdidemo</context-root>
+</jboss-web>
+
+-->
